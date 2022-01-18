@@ -1,0 +1,5 @@
+knowledge_base,Linkage_method,Atribute_count,Computation_time,silhouette_score,Smalest_group_count,Largest_group_count,Rule_count,Cluster_count,Distance_messure
+test_5C_07_10_2015_19_46_50,complete,34,0.029761500000006436,0.20380442567459398,3,78,1199,47,euclidean
+test_5C_07_10_2015_19_46_50,complete,34,0.020801300000002243,0.19753485195873263,4,160,1199,23,euclidean
+test_5C_07_10_2015_19_46_50,complete,34,0.0347280000000012,0.21160048151570202,3,62,1199,59,euclidean
+test_5C_07_10_2015_19_46_50,complete,34,0.022025299999995696,0.17446335724910228,16,558,1199,11,euclidean

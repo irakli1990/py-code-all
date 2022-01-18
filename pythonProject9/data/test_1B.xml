@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<knowledge_base userID="17" description="fakt e=e1 uaktywni regułę r5, a ta potem może uaktywnić przy kolejnych iteracjach r6-&gt;r7-&gt;r8-&gt;r9" kbName="test_1B_09_09_2015_08_51_41" kbID="104">
+  <attributes>
+    <attribute>
+      <name attributeID="722">a</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1860">a1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="723">b</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1861">b1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="724">c</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1862">c1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="725">d</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1863">d1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="726">e</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1864">e1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="727">f</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1865">f1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="728">g</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1866">g1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="729">h</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1867">h1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="730">i</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1868">i1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="731">j</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1869">j1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="732">k</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1870">k1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+    <attribute>
+      <name attributeID="733">kk</name>
+      <type>symbolic</type>
+      <values_list>
+        <symbolic_value>
+          <name valueID="1871">kk2</name>
+        </symbolic_value>
+        <symbolic_value>
+          <name valueID="1872">kk1</name>
+        </symbolic_value>
+      </values_list>
+    </attribute>
+  </attributes>
+  <facts>
+    <attribute_value>
+      <attribute attributeID="726">e</attribute>
+      <operator>==</operator>
+      <value valueID="1864">e1</value>
+    </attribute_value>
+  </facts>
+  <rules>
+    <rule number="1" ruleID="5650">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="723">b</attribute>
+          <operator>==</operator>
+          <value valueID="1861">b1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="722">a</attribute>
+          <operator>==</operator>
+          <value valueID="1860">a1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="2" ruleID="5651">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="724">c</attribute>
+          <operator>==</operator>
+          <value valueID="1862">c1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="723">b</attribute>
+          <operator>==</operator>
+          <value valueID="1861">b1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="3" ruleID="5652">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="725">d</attribute>
+          <operator>==</operator>
+          <value valueID="1863">d1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="724">c</attribute>
+          <operator>==</operator>
+          <value valueID="1862">c1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="4" ruleID="5653">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="726">e</attribute>
+          <operator>==</operator>
+          <value valueID="1864">e1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="725">d</attribute>
+          <operator>==</operator>
+          <value valueID="1863">d1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="5" ruleID="5654">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="727">f</attribute>
+          <operator>==</operator>
+          <value valueID="1865">f1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="726">e</attribute>
+          <operator>==</operator>
+          <value valueID="1864">e1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="6" ruleID="5655">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="728">g</attribute>
+          <operator>==</operator>
+          <value valueID="1866">g1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="727">f</attribute>
+          <operator>==</operator>
+          <value valueID="1865">f1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="7" ruleID="5656">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="729">h</attribute>
+          <operator>==</operator>
+          <value valueID="1867">h1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="728">g</attribute>
+          <operator>==</operator>
+          <value valueID="1866">g1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="8" ruleID="5657">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="730">i</attribute>
+          <operator>==</operator>
+          <value valueID="1868">i1</value>
+          <attributeOrder>3</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="729">h</attribute>
+          <operator>==</operator>
+          <value valueID="1867">h1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+        <attribute_value>
+          <attribute attributeID="728">g</attribute>
+          <operator>==</operator>
+          <value valueID="1866">g1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="9" ruleID="5658">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="731">j</attribute>
+          <operator>==</operator>
+          <value valueID="1869">j1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="730">i</attribute>
+          <operator>==</operator>
+          <value valueID="1868">i1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="10" ruleID="5659">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="731">j</attribute>
+          <operator>==</operator>
+          <value valueID="1869">j1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="732">k</attribute>
+          <operator>==</operator>
+          <value valueID="1870">k1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+    <rule number="11" ruleID="11654">
+      <conclusion>
+        <attribute_value>
+          <attribute attributeID="733">kk</attribute>
+          <operator>==</operator>
+          <value valueID="1872">kk1</value>
+          <attributeOrder>2</attributeOrder>
+        </attribute_value>
+      </conclusion>
+      <conditions>
+        <attribute_value>
+          <attribute attributeID="731">j</attribute>
+          <operator>==</operator>
+          <value valueID="1869">j1</value>
+          <attributeOrder>1</attributeOrder>
+        </attribute_value>
+      </conditions>
+    </rule>
+  </rules>
+</knowledge_base>
